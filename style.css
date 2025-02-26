@@ -1,0 +1,59 @@
+/* Import Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #595756;
+    background: rgb(254,239,225);
+    background: linear-gradient(90deg, rgba(254,239,225,1) 15%, rgba(255,255,255,1) 50%, rgba(253,238,239,1) 85%);
+}
+
+.navbar {
+    background-color: transparent !important; /* Ensures the navbar is transparent */
+}
+
+/* for nav bar titles*/
+.navbar-nav .nav-item {
+    margin-left: 20px; 
+    margin-right: 20px; 
+    border: none; /* Removes any potential borders */
+}
+
+
+/* Navbar Brand Styling */
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #DC5194;
+}
+
+.highlight {
+    color: #DC5194; /* Pink color */
+}
+
+
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Fraunces', serif;
+    max-width: 600px; /* Set a maximum width to control the wrapping */
+    margin-left: auto; /* Center the text */
+    margin-right: auto; /* Center the text */
+    text-align: center; /* Center-align the text */
+    color: #595756;
+    margin-top: 40px;
+}
+
+.app-mockup img {
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+
+
+
+
