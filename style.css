@@ -8,6 +8,15 @@ body {
     background: linear-gradient(90deg, rgba(254,239,225,1) 15%, rgba(255,255,255,1) 50%, rgba(253,238,239,1) 85%);
 }
 
+/* for shelf logo*/
+.navbar-brand img {
+    max-width: 110px;
+    max-height: 50px;
+    width: auto; /* Ensures the image scales proportionally */
+    height: auto; /* Ensures the image scales proportionally */
+    object-fit: contain; /* Prevents distortion and fits the image within the max bounds */
+}
+
 .navbar {
     background-color: transparent !important; /* Ensures the navbar is transparent */
 }
@@ -19,6 +28,10 @@ body {
     border: none; /* Removes any potential borders */
 }
 
+.hero {
+    background: rgb(254,239,225);
+    background: linear-gradient(90deg, rgba(254,239,225,1) 15%, rgba(255,255,255,1) 50%, rgba(253,238,239,1) 85%);
+}
 
 /* Navbar Brand Styling */
 .navbar-brand {
@@ -47,10 +60,41 @@ body {
 }
 
 .app-mockup img {
-    max-width: 300px;
+    max-width: 290px;
     margin-top: 20px;
     border-radius: 12px;
     border: 1px solid #ddd;
+}
+
+.soundbowl-benefits {
+    padding: 60px 0;
+    background-color: #FDE7E9;
+}
+
+.benefit-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 100%;
+}
+
+.soundbowl-benefits h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.benefit-box h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+.benefit-box p {
+    font-size: 1rem;
+    color: #555;
 }
 
 
