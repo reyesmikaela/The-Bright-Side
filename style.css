@@ -119,7 +119,7 @@ body {
 }
 
 .feature-icon {
-    width: 100px; /* Adjust icon size */
+    width: 80px; /* Adjust icon size */
     margin-bottom: 40px; /* Space between icon and heading */
 }
 
@@ -127,12 +127,13 @@ body {
     font-size: 2rem;
     font-weight: 600;
     font-family: 'Fraunces', serif;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .features h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 250px;
+    padding-bottom: 100px;
 }
 
 
