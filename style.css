@@ -65,12 +65,32 @@ body {
     color: #595756;
 }
 
-.app-mockup img {
-    max-width: 270px;
+.hero .container {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+.hero .d-flex {
+    display: flex;
+    justify-content: center; /* Ensure the items are centered horizontally */
+    align-items: center; /* Align items vertically */
+    margin-left: -200px; /* Move the entire container slightly to the left */
     margin-top: 20px;
+}
+
+.hero .app-mockup img {
+    max-width: 270px; /* Control the max size of the app mockup */
     border-radius: 20px;
     border: 1px solid #ddd;
 }
+
+.hero .left-photo img {
+    max-width: 200px; /* Control the size of the sun image */
+    height: auto;
+    opacity: 0.5;
+}
+
 
 .soundbowl-benefits {
     padding: 100px 0; /* Adjust this value if needed */
