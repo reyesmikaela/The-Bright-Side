@@ -58,7 +58,7 @@ body {
     font-size: 2rem;
     margin-bottom: 20px;
     font-family: 'Fraunces', serif;
-    max-width: 600px; /* Set a maximum width to control the wrapping */
+    max-width: 650px; /* Set a maximum width to control the wrapping */
     margin-left: auto; /* Center the text */
     margin-right: auto; /* Center the text */
     text-align: center; /* Center-align the text */
@@ -135,6 +135,47 @@ body {
     font-size: 1.3rem;
     width: 250px;
     padding-bottom: 100px;
+}
+
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+}
+
+.team-member {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.team-photo {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 40px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.team-info {
+    flex: 1;
+}
+
+.team-name {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.team-role {
+    font-size: 1rem;
+    color: #DC5194; /* Pink */
+    font-weight: 700;
+}
+
+.team-bio {
+    font-size: 1rem;
 }
 
 
