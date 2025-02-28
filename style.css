@@ -133,31 +133,30 @@ body {
     margin-bottom: 10px; /* Space between icon and heading */
 }
 
-.features {
+.standout {
     padding: 100px 0; /* Add padding to the section */
     background: rgb(254,239,225);
     background: linear-gradient(90deg, rgba(254,239,225,1) 15%, rgba(255,255,255,1) 50%, rgba(253,238,239,1) 85%);
 }
 
-.feature-icon {
+.standout-icon {
     width: 80px; /* Adjust icon size */
     margin-bottom: 40px; /* Space between icon and heading */
 }
 
-.features h1{
+.standout h1{
     font-size: 2rem;
     font-weight: 600;
     font-family: 'Fraunces', serif;
     padding-bottom: 100px;
 }
 
-.features h2{
+.standout h2{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.3rem;
     width: 250px;
     padding-bottom: 100px;
 }
-
 
 h2 {
     font-family: 'Fraunces', serif;
@@ -200,4 +199,40 @@ h2 {
 }
 
 
+.features-section{
+    padding: 100px 0;
+    background-color: #FEEBDA;
+}
 
+.features-section .container{
+    justify-content: center;
+    align-items: center;
+}
+
+.features-section h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Fraunces', serif;
+}
+
+.features-section h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+}
+
+.features-section p{
+    font-size: 1.3rem;
+}
+
+.features-section img.img-fluid {
+    width: 400px;
+    height: auto;
+    border-radius: 15px; /* Makes the image rounded */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add spacing between rows */
+.features-section .row {
+    margin-bottom: 100px; /* Increase space between rows */
+}
