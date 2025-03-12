@@ -81,8 +81,6 @@ body {
 
 .hero .app-mockup img {
     max-width: 270px; /* Control the max size of the app mockup */
-    border-radius: 20px;
-    border: 2px solid #ddd;
 }
 
 .hero .left-photo img {
