@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bright Side</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
+        
+        <!-- Nunito Sans Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+                 <!-- Fraunces Font -->
+                 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&display=swap" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+
+
+        <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Bright Side <img src="logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link tab-link" href="index.html" data-tab="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link tab-link" href="howitworks.html" data-tab="how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link tab-link active" href="research.html" data-tab="research">Research</a></li>
+                    <li class="nav-item"><a class="nav-link tab-link" href="team.html" data-tab="team">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="research-section">
+        <div class="container-research">
+            <div class="content-wrapper">
+                <div class="image-container">
+                    <img src="relaxing.png" alt="person relaxing">
+                </div>
+                <div class="text-container">
+                    <h2>Research-Proven Benefits of Sound Bowl Meditation</h2>
+                    <p>Studies have demonstrated the profound impact of sound bowl meditation on mental and physical well-being:</p>
+                    <ul>
+                        <li><strong>Goldsby et al. (2017)</strong> found that sound bowl meditation significantly reduced tension, anxiety, and depression while enhancing spiritual well-being and mental clarity.</li>
+                        <li><strong>Saskovets et al. (2024)</strong> identified physiological benefits such as improved heart rate, lowered blood pressure, and enhanced breathing patterns.</li>
+                    </ul>
+                    <p>These findings convey that sound bowl meditation is a powerful, low-cost, and accessible wellness tool that promotes holistic healing by aligning the body's energy centers (chakras), fostering inner peace and fulfillment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bowl-info-section">
+            <h2>Explore Each Singing Bowl</h2>
+            <div id="bowl-info" class="bowl-info">
+                <p>
+                    Singing bowls have the ability to create unique musical sounds and notes by vibrating at specific frequencies – each bowl has its own distinct tone. Frequencies of the sounds usually range between 110 Hz-900 Hz. <br><br>
+                    Click a bowl type to see details.
+                </p>
+            </div>
+
+            <div class="bowls-container">
+                <div class="bowl-box" data-type="tibetan" onclick="showInfo('tibetan')">Tibetan Bowls</div>
+                <div class="bowl-box" data-type="metal" onclick="showInfo('metal')">Metal Bowls</div>
+                <div class="bowl-box" data-type="crystal" onclick="showInfo('crystal')">Crystal Bowls</div>
+                <div class="bowl-box" data-type="alchemical" onclick="showInfo('alchemical')">Alchemical Bowls</div>
+                <div class="bowl-box" data-type="himalayan" onclick="showInfo('himalayan')">Himalayan Bowls</div>
+                <div class="bowl-box" data-type="chakra" onclick="showInfo('chakra')">Chakra Bowls</div>
+            </div>
+            
+            <div class="sound-bowl-structure">
+                <h2>Sound Bowl Structure and Vibrations</h2>
+                <p>The rim, wall, base, and lip impact the sound’s depth and resonance.</p>
+                <p>Vibrations travel effectively through the body (composed of 70% water), influencing cells and tissues to promote relaxation and stress relief.</p>
+            </div>
+    </section>
+
+    <section class="user-research-section">
+        <h2>User Research</h2>
+        <h5>"The frequency of depression, anxiety, and stress among university students was found to be 75%, 88.4%, and 84.4% respectively." - Asif et al. (2020)</h5>
+        <div class="persona">
+            <h3>Persona</h3>
+            <p>During our research, we sought out <strong>college students (18-22)</strong> who are looking for accessible and effective wellness tools to manage their mental 
+                and emotional well-being, particularly during stressful academic periods. Below is our persona:</p>
+            <div class="persona-container">
+                <img src="persona.png" alt="Persona Image" class="persona-image">
+             </div>
+            </div>
+        </div>
+
+        <div class="survey-section">
+            <h3>Surveys/Feedback</h3>
+            <p>Our survey results highlight strong potential for introducing new users to sound bowl meditation:</p>
+        
+            <h4>In round 1 of our survey, we received 21 responses:</h4>
+            
+            <div class="survey-container">
+                <img src="survey-results.png" alt="Survey Results" class="survey-image">
+                <p class="survey-text">
+                    90.5% of respondents had not participated in a Sound Bowl session before, presenting an opportunity to introduce new users.<br><br>
+                    
+                </p>
+            </div>
+        </div>
+
+        <div class="survey-container">
+            <img src="survey-image2.png" alt="Survey Image 2" class="survey-image">
+            <div class="survey-text">
+                <p>Over 71.4% of respondents expressed interest in Sound Bowl experiences (through lessons, streaming, etc)</p>
+            </div>
+        </div>
+        
+        <div class="survey-container">
+            <img src="survey-image3.png" alt="Survey Image 2" class="survey-image">
+            <div class="survey-text">
+                <p>Various purposes respondents shared of using sound bowl for therapy/relaxation included stress relief, relaxation, and sleep</p>
+            </div>
+        </div>
+
+        <div class="survey-container">
+            <img src="survey-image4.png" alt="Survey Image 2" class="survey-image">
+            <div class="survey-text">
+                <p>The top-ranked difficulties experienced with other music therapy apps/services included lack of motivation, difficult navigation, and cost of services</p>
+            </div>
+        </div>
+
+
+        <div class="feedback-section">
+            <h4>In round 2 of user feedback surveys, we shared our prototype with some users. Here is some feedback from testimonies:</h4>
+            
+
+            <div class="feedback-testimonies">
+                <div class="feedback-box">“The app does a good job about introducing users to sound bowl meditation and I found it easy to navigate.”</div>
+                <div class="feedback-box">“Great aesthetics. I liked the colors that were chosen and the images used were also great!”</div>
+                <div class="feedback-box">“I like the color scheme, the graphics, and the fonts used on the app.”</div>
+                <div class="feedback-box">“I would find it helpful if the app suggested music/singing bowls 
+                    based on my current mood or music preferences.”</div>
+            </div>
+            
+        </div>
+
+        <div class="comparative-analysis">
+            <h3>Comparative Analysis</h3>
+            <table class="analysis-table">
+                <tr>
+                    <th>App</th>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Headspace</td>
+                    <td>
+                        <ul>
+                            <li>Guided meditations</li>
+                            <li>User-friendly</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Limited focus on sound healing</li>
+                            <li>No singing bowl sounds</li>
+                            <li>Subscription required</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Calm</td>
+                    <td>
+                        <ul>
+                            <li>Meditation library soundtrack</li>
+                            <li>Sleep-focused</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Focuses on nature sounds rather than singing bowl frequencies</li>
+                            <li>Subscription required</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Smiling Mind</td>
+                    <td>
+                        <ul>
+                            <li>Free to use</li>
+                            <li>Designed for all ages</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Limited sound-based meditation options</li>
+                            <li>No focus on sound bowl therapy</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <p class="analysis-summary">
+            The lack of sound bowl meditation in existing apps suggests a new opportunity for this form of relaxation and music therapy within wellness resources. 
+            Integrating sound bowl meditation in <strong>The Bright Side</strong> could help fill this gap and provide an amazing, stress-relieving resource for individuals and communities, all while being free to use. 
+            This would be especially valuable given the scientific evidence supporting the positive effects of sound bowl meditation.
+        </p>
+    </section>
+
+
+    <section class="addressing-concerns">
+        <h2>Addressing Concerns</h2>
+    
+        <div class="concern-solution-pair">
+            <div class="concern-box">
+                <h3>Not Having the Motivation</h3>
+            </div>
+            <div class="arrow">→</div>
+            <div class="solution-box">
+                <h3>Solution</h3>
+                <p>The Bright Side will focus on creating a highly engaging experience, 
+                    using features such as personalized recommendations based on mood or user preferences. 
+                    There will be a clear sense of progress in their meditation journey. 
+                </p>
+            </div>
+        </div>
+    
+        <div class="concern-solution-pair">
+            <div class="concern-box">
+                <h3>Time Constraints</h3>
+            </div>
+            <div class="arrow">→</div>
+            <div class="solution-box">
+                <h3>Solution</h3>
+                <p>To accommodate this, the app will include features that allow users to customize their sound bowl meditation songs according to their available time with 
+                    various in-person and individual tools.</p>
+            </div>
+        </div>
+    
+        <div class="concern-solution-pair">
+            <div class="concern-box">
+                <h3>Difficulty With Navigation</h3>
+            </div>
+            <div class="arrow">→</div>
+            <div class="solution-box">
+                <h3>Solution</h3>
+                <p>This can be a significant barrier to new technologies, especially for users who are not tech-savvy. 
+                    The Bright Side will provide a simple interface with clear navigation in finding specific resources without the hassle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="solutions-section">
+        <h2>Introducing: <span class="highlight">The Bright Side</span></h2>
+        
+        <div class="solutions-container">
+            <h3>Engagement</h3>
+            <p>To maintain user engagement, The Bright Side will incorporate an AI DJ that users can chat with, making it more interactive. Along with setting reminders to encourage regular use and foster a relaxing routine.</p>
+            <hr>
+    
+            <h3>Personalization of App</h3>
+            <p>The app offers personalized suggestions for music and sessions based on the user's emotional state or goals, enhancing the relevance. Furthermore, users will be able to set their own goals to track their progress.</p>
+            <hr>
+    
+            <h3>Interest-Centered Design</h3>
+            <p>The app will be designed with a focus on the interests of its users, ensuring that the sound bowl meditation sessions are diverse and adaptable to various needs. Users select what resonates with them, ensuring that it meets their standards.</p>
+            <hr>
+    
+            <h3>Low-Cost and Accessibility</h3>
+            <p>The Bright Side will be available for free, making sound bowl meditation accessible to a wide audience. Users can enjoy high-quality sessions without financial barriers.</p>
+            <hr>
+    
+            <h3>Scientific Backing</h3>
+            <p>The app will emphasize its scientific foundation, with evidence-based research supporting the benefits of sound bowl meditation for mental health and wellness.</p>
+            <hr>
+        </div>
+    </section>
+
+</body>
+
+</html>
