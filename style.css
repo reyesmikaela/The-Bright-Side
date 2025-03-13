@@ -509,3 +509,54 @@ h4 {
     margin-top: 40px; /* Adjust the space between each feature */
 }
 
+.explore-button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-weight: 300;
+    background-color: #DC5194; 
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for both background and text color */
+  }
+
+  .explore-button:hover {
+    transform: scale(1.05); 
+    opacity: 0.8; /* Slightly fade the image on hover */
+  }
+
+  .demo {
+    padding: 20px 40px; /* Add spacing inside the section */
+    text-align: center; /* Center align text */
+    margin: 40px auto; /* Center the section */
+    max-width: 1200px; /* Restrict maximum width */
+}
+
+.prototype {
+    padding: 40px 40px; /* Add spacing inside the section */
+    text-align: center; /* Center align text */
+    margin: 40px auto; /* Center the section */
+    max-width: 1200px; /* Restrict maximum width */
+}
+
+.demo video {
+    padding: 20px 20px;
+    width: 40%;  /* Adjusts size relative to container */
+    max-width: 400px; /* Sets a smaller max width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.figma-prototype iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
